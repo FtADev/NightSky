@@ -55,26 +55,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          Image.asset(
-            'assets/sky.jpg',
-            width: MediaQuery
-                .of(context)
-                .size
-                .width,
-            height: MediaQuery
-                .of(context)
-                .size
-                .height,
-            fit: BoxFit.fill,
+          Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            color: Color(0xFF020012),
           ),
-//          Opacity(
-//            opacity: 0.6,
-//            child: Container(
-//              width: MediaQuery.of(context).size.width,
-//              height: MediaQuery.of(context).size.height,
-//              color: Colors.black,
-//            ),
-//          ),
           ...makeStar(MediaQuery
               .of(context)
               .size
