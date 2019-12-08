@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'dart:math' show Random;
-import 'package:night_sky/star.dart';
+import 'star.dart';
 
 void main() => runApp(MyApp());
 
