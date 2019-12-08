@@ -1,6 +1,6 @@
-# night_sky
+# Night Sky
 
-A new Flutter project.
+Make your background amazing!
 
 ## Getting Started
 
